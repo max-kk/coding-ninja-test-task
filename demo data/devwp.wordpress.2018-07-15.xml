@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/4.9.6" created="2018-06-30 10:47" -->
+<!-- generator="WordPress/4.9.7" created="2018-07-15 15:27" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>DEV WP</title>
 	<link>http://max607204.s08.wh1.su</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Sat, 30 Jun 2018 10:47:32 +0000</pubDate>
+	<pubDate>Sun, 15 Jul 2018 15:27:01 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://max607204.s08.wh1.su</wp:base_site_url>
@@ -81,6 +81,20 @@
 		<wp:term_slug><![CDATA[external]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[external]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[20]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[film-category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[fantastic]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Fantastic]]></wp:term_name>
+	</wp:term>
+	<wp:term>
+		<wp:term_id><![CDATA[21]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[film-category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[fantasy]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Fantasy]]></wp:term_name>
 	</wp:term>
 	<wp:term>
 		<wp:term_id><![CDATA[8]]></wp:term_id>
@@ -146,6 +160,13 @@
 		<wp:term_name><![CDATA[simple]]></wp:term_name>
 	</wp:term>
 	<wp:term>
+		<wp:term_id><![CDATA[22]]></wp:term_id>
+		<wp:term_taxonomy><![CDATA[film-category]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[starred]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Starred]]></wp:term_name>
+	</wp:term>
+	<wp:term>
 		<wp:term_id><![CDATA[15]]></wp:term_id>
 		<wp:term_taxonomy><![CDATA[product_cat]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[uncategorized]]></wp:term_slug>
@@ -166,7 +187,7 @@
 	<wp:term><wp:term_id>17</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[top]]></wp:term_slug><wp:term_name><![CDATA[Top]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=4.9.6</generator>
+	<generator>https://wordpress.org/?v=4.9.7</generator>
 
 	<item>
 		<title>Hello world!</title>
@@ -528,8 +549,8 @@ As a new WordPress user, you should go to <a href="http://max607204.s08.wh1.su/w
 		<wp:post_type><![CDATA[film]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="fantastic"><![CDATA[Fantastic]]></category>
-		<category domain="category" nicename="starred"><![CDATA[Starred]]></category>
+		<category domain="film-category" nicename="fantastic"><![CDATA[Fantastic]]></category>
+		<category domain="film-category" nicename="starred"><![CDATA[Starred]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -774,8 +795,8 @@ As a new WordPress user, you should go to <a href="http://max607204.s08.wh1.su/w
 		<wp:post_type><![CDATA[film]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="fantasy"><![CDATA[Fantasy]]></category>
-		<category domain="category" nicename="starred"><![CDATA[Starred]]></category>
+		<category domain="film-category" nicename="fantasy"><![CDATA[Fantasy]]></category>
+		<category domain="film-category" nicename="starred"><![CDATA[Starred]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -853,8 +874,7 @@ As a new WordPress user, you should go to <a href="http://max607204.s08.wh1.su/w
 		<wp:post_type><![CDATA[film]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="category" nicename="fantasy"><![CDATA[Fantasy]]></category>
-		<category domain="category" nicename="starred"><![CDATA[Starred]]></category>
+		<category domain="film-category" nicename="fantasy"><![CDATA[Fantasy]]></category>
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
@@ -878,6 +898,10 @@ As a new WordPress user, you should go to <a href="http://max607204.s08.wh1.su/w
 		<wp:postmeta>
 			<wp:meta_key><![CDATA[_wc_average_rating]]></wp:meta_key>
 			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key><![CDATA[subtitle]]></wp:meta_key>
+			<wp:meta_value><![CDATA[Some subtitle]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>

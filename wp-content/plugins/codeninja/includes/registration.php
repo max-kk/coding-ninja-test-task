@@ -3,10 +3,11 @@
 namespace CN\Registration;
 
 // redirect logged in users
-add_filter('login_redirect', __NAMESPACE__.'\\login_redirect', 10, 3);
-function login_redirect($redirect_to, $request, $user) {
+add_filter('login_redirect', __NAMESPACE__.'\\login_redirect', 10);
+add_filter('woocommerce_registration_redirect', __NAMESPACE__.'\\login_redirect', 10);
+function login_redirect($redirect_to) {
     if ( !current_user_can("manage_options") ) {
-        return home_url( site_url('/film/') );
+        return site_url('/film-category/starred/');
     }
     return $redirect_to;
 }

@@ -3,7 +3,7 @@
 namespace CN\Film;
 
 // Add to cart and redirect to Checkout
-add_action( 'init', function () {
+add_action( 'wp_loaded', function () {
 
     if ( isset($_GET['buy_film']) && function_exists('wc') ) {
         wc()->cart->add_to_cart( absint($_GET['buy_film']), 1 );

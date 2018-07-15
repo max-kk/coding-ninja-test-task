@@ -11,6 +11,11 @@ class Rational_Meta_Box {
     );
     private $fields = array(
         array(
+            'id' => 'subtitle',
+            'label' => 'Subtitle',
+            'type' => 'text',
+        ),
+        array(
             'id' => '_price',
             'label' => 'Price',
             'type' => 'text',
